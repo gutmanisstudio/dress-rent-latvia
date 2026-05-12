@@ -199,6 +199,9 @@ export function ParallaxImage({
   style = {},
   motion = "medium",
   objectPosition = "center",
+  offsetX = 0,
+  offsetY = 0,
+  scale = 1.12,
 }: {
   src: string;
   alt?: string;
@@ -207,15 +210,22 @@ export function ParallaxImage({
   style?: CSSProperties;
   motion?: MotionLevel;
   objectPosition?: string;
+  offsetX?: number;
+  offsetY?: number;
+  scale?: number;
 }) {
   const wrapRef = useRef<HTMLDivElement | null>(null);
   const imgRef = useRef<HTMLImageElement | null>(null);
 
   useEffect(() => {
-    if (motion === "off" || motion === "subtle") return;
-    const wrap = wrapRef.current;
     const img = imgRef.current;
-    if (!wrap || !img) return;
+    if (!img) return;
+    if (motion === "off" || motion === "subtle") {
+      img.style.transform = `translate3d(${offsetX}px, ${offsetY}px, 0) scale(${scale})`;
+      return;
+    }
+    const wrap = wrapRef.current;
+    if (!wrap) return;
     let raf = 0;
     const factor = motion === "heavy" ? amount : amount * 0.55;
 
@@ -224,7 +234,7 @@ export function ParallaxImage({
       const vh = window.innerHeight || 1;
       const progress = (r.top + r.height / 2 - vh / 2) / vh;
       const y = Math.max(-1.2, Math.min(1.2, progress)) * factor;
-      img.style.transform = `translate3d(0, ${-y}px, 0) scale(1.12)`;
+      img.style.transform = `translate3d(${offsetX}px, ${offsetY - y}px, 0) scale(${scale})`;
       raf = 0;
     };
     const onScroll = () => {
@@ -238,7 +248,7 @@ export function ParallaxImage({
       window.removeEventListener("resize", onScroll);
       cancelAnimationFrame(raf);
     };
-  }, [amount, motion]);
+  }, [amount, motion, offsetX, offsetY, scale]);
 
   return (
     <div ref={wrapRef} className={`drl-parallax ${className}`} style={style}>

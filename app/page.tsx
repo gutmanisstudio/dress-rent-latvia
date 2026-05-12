@@ -1,11 +1,10 @@
 "use client";
 import Link from "next/link";
 import { useMotionPref } from "@/lib/motion";
-import { COPY, DRESSES, MARQUEE_WORDS, PROCESS_STEPS } from "@/lib/data";
+import { COPY, DRESSES, PROCESS_STEPS } from "@/lib/data";
 import {
   Reveal,
   SplitReveal,
-  Marquee,
   ParallaxImage,
   ArrowSmall,
 } from "@/components/primitives";
@@ -23,11 +22,13 @@ export default function HomePage() {
       <section className="drl-hero">
         <div className="drl-hero__media">
           <ParallaxImage
-            src="/assets/black/1.jpg"
-            alt="Vakara kleita ar sequīniem"
+            src="/assets/hero.JPEG"
+            alt="Vakara kleita"
             motion={motion}
-            amount={50}
+            amount={20}
             objectPosition="center top"
+            scale={1}
+            offsetY={-110}
           />
           <div className="drl-hero__scrim"></div>
         </div>
@@ -90,9 +91,6 @@ export default function HomePage() {
         </div>
       </section>
 
-      {/* Marquee */}
-      <Marquee words={MARQUEE_WORDS} motion={motion} />
-
       {/* Intro */}
       <section className="drl-intro">
         <div className="drl-intro__inner">
@@ -140,7 +138,7 @@ export default function HomePage() {
       {/* Diptych */}
       <section className="drl-diptych">
         <div className="drl-diptych__l">
-          <ParallaxImage src="/assets/black/6.jpg" alt="" motion={motion} amount={50} />
+          <ParallaxImage src="/assets/black/black6.jpg" alt="" motion={motion} amount={50} />
         </div>
         <div className="drl-diptych__c">
           <Reveal motion={motion}>
@@ -166,7 +164,7 @@ export default function HomePage() {
           </Reveal>
         </div>
         <div className="drl-diptych__r">
-          <ParallaxImage src="/assets/silver/2.jpg" alt="" motion={motion} amount={50} />
+          <ParallaxImage src="/assets/silver/silver2.jpg" alt="" motion={motion} amount={50} />
         </div>
       </section>
 

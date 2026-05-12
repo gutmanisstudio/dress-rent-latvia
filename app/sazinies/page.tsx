@@ -20,8 +20,9 @@ function Field({
 }) {
   const [focus, setFocus] = useState(false);
   const filled = value && value.length > 0;
+  const alwaysActive = type === "date" || textarea;
   return (
-    <label className={`drl-field ${focus || filled ? "is-active" : ""}`}>
+    <label className={`drl-field ${focus || filled || alwaysActive ? "is-active" : ""}`}>
       <span className="drl-field__label">
         {label}
         {required && " *"}
@@ -125,7 +126,7 @@ export default function ContactPage() {
             <div className="drl-contact__block">
               <div className="drl-eyebrow">Studio</div>
               <p>
-                Brīvības iela 00<br />Rīga, LV-1010<br />Latvija
+                Saņemšana — Liepāja<br />Sūtām visā Latvijā<br />Omniva · DPD
               </p>
             </div>
           </Reveal>

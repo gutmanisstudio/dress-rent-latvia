@@ -43,7 +43,7 @@ export default function HowPage() {
 
       <section className="drl-how__detail">
         <div className="drl-how__detail-l">
-          <ParallaxImage src="/assets/white/3.jpg" alt="" motion={motion} amount={50} />
+          <ParallaxImage src="/assets/white/white3.jpg" alt="" motion={motion} amount={50} />
         </div>
         <div className="drl-how__detail-r">
           <Reveal motion={motion}>

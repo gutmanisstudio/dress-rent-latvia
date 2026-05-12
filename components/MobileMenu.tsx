@@ -53,7 +53,7 @@ export function MobileMenu({
       <div className="drl-mmenu__foot">
         <div>
           <div className="drl-eyebrow">Studio</div>
-          <div>Brīvības iela 00, Rīga</div>
+          <div>Saņemšana Liepājā · Sūtām visā Latvijā</div>
         </div>
         <div>
           <div className="drl-eyebrow">Sazinies</div>

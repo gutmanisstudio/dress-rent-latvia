@@ -72,7 +72,7 @@ function InquiryForm({ dress }: { dress: Dress }) {
       />
       <button type="submit" className="drl-btn drl-btn--solid drl-btn--block">
         <span>
-          Pieprasīt — €{dress.price} / vakars
+          Pieprasīt — €? / vakars
         </span>
         <ArrowSmall />
       </button>
@@ -138,7 +138,7 @@ export default function DressDetailPage() {
             </h1>
           </Reveal>
           <Reveal motion={motion} delay={160} className="drl-detail__price">
-            <span>€{dress.price}</span>
+            <span>€?</span>
             <span className="drl-detail__per">/ vakars · 3 dienu noma</span>
           </Reveal>
           <Reveal motion={motion} delay={220} className="drl-detail__specs">
@@ -158,7 +158,7 @@ export default function DressDetailPage() {
             <ul className="drl-detail__bullets">
               <li><span>✦</span> Iekļauta profesionāla tīrīšana</li>
               <li><span>✦</span> Bezmaksas pielāgojumi (garums, sānu šuves)</li>
-              <li><span>✦</span> Depozīts — €{dress.price}, atgriežams pilnībā</li>
+              <li><span>✦</span> Depozīts — €?, atgriežams pilnībā</li>
             </ul>
           </Reveal>
         </aside>

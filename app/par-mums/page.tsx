@@ -39,7 +39,7 @@ export default function AboutPage() {
         <div className="drl-about__story-l">
           <Reveal motion={motion}>
             <p className="drl-about__lead">
-              Dress Rent Latvia ir privāts kleitu studio, kas dibināts 2020. gadā Rīgā.
+              Dress Rent Latvia ir privāts kleitu studio, kas dibināts 2020. gadā Liepājā.
             </p>
           </Reveal>
           <Reveal motion={motion} delay={120}>
@@ -54,7 +54,7 @@ export default function AboutPage() {
           </Reveal>
         </div>
         <div className="drl-about__story-r">
-          <ParallaxImage src="/assets/pink/1.jpg" alt="" motion={motion} amount={40} />
+          <ParallaxImage src="/assets/pink/pink1.jpg" alt="" motion={motion} amount={40} />
         </div>
       </section>
 
@@ -68,9 +68,9 @@ export default function AboutPage() {
       </section>
 
       <section className="drl-about__triptych">
-        <ParallaxImage src="/assets/silver/1.jpg" alt="" motion={motion} amount={30} />
-        <ParallaxImage src="/assets/white/1.jpg" alt="" motion={motion} amount={50} />
-        <ParallaxImage src="/assets/black/3.jpg" alt="" motion={motion} amount={30} />
+        <ParallaxImage src="/assets/silver/silver1.jpg" alt="" motion={motion} amount={30} />
+        <ParallaxImage src="/assets/white/white1.jpg" alt="" motion={motion} amount={50} />
+        <ParallaxImage src="/assets/black/black3.jpg" alt="" motion={motion} amount={30} />
       </section>
 
       <section className="drl-about__values">

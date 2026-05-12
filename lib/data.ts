@@ -35,14 +35,14 @@ export const DRESSES: Dress[] = [
       "Strukturēta korsetes kleita ar manuāli šūtu sequīnu pārklājumu un dramatisku astes garumu. Augsts šķēlums, atklāta mugura.",
     notes: "Izmērs S/M · Augstums 165–178 cm",
     sizes: ["S", "M"],
-    cover: "/assets/black/1.jpg",
+    cover: "/assets/black/black1.jpg",
     gallery: [
-      "/assets/black/1.jpg",
-      "/assets/black/2.jpg",
-      "/assets/black/3.jpg",
-      "/assets/black/4.jpg",
-      "/assets/black/5.jpg",
-      "/assets/black/6.jpg",
+      "/assets/black/black1.jpg",
+      "/assets/black/black2.jpg",
+      "/assets/black/black3.jpg",
+      "/assets/black/black4.jpg",
+      "/assets/black/black5.jpg",
+      "/assets/black/black6.jpg",
     ],
   },
   {
@@ -61,8 +61,12 @@ export const DRESSES: Dress[] = [
       "Halter kakla izgriezuma kleita ar geometrisku sudraba pērļu izšuvumu un nāriņas siluetu. Atvērta mugura.",
     notes: "Izmērs S · Augstums 168–180 cm",
     sizes: ["S"],
-    cover: "/assets/silver/1.jpg",
-    gallery: ["/assets/silver/1.jpg", "/assets/silver/2.jpg"],
+    cover: "/assets/silver/silver1.jpg",
+    gallery: [
+      "/assets/silver/silver1.jpg",
+      "/assets/silver/silver2.jpg",
+      "/assets/silver/silver3.jpg",
+    ],
   },
   {
     id: "ivory-volant",
@@ -80,12 +84,11 @@ export const DRESSES: Dress[] = [
       "Skulpturāls bardo volāns uz neoprēna auduma. Augsts sānu šķēlums, taisns silueta apakša.",
     notes: "Izmērs S/M · Augstums 160–175 cm",
     sizes: ["S", "M"],
-    cover: "/assets/white/1.jpg",
+    cover: "/assets/white/white1.jpg",
     gallery: [
-      "/assets/white/1.jpg",
-      "/assets/white/2.jpg",
-      "/assets/white/3.jpg",
-      "/assets/white/4.jpg",
+      "/assets/white/white1.jpg",
+      "/assets/white/white2.jpg",
+      "/assets/white/white3.jpg",
     ],
   },
   {
@@ -104,8 +107,8 @@ export const DRESSES: Dress[] = [
       "Mīksta strausa spalvu apdare uz strapless korsetes un slaida silueta ar sānu šķēlumu. Romantisks rozā tonis.",
     notes: "Izmērs S · Augstums 165–178 cm",
     sizes: ["S"],
-    cover: "/assets/pink/1.jpg",
-    gallery: ["/assets/pink/1.jpg", "/assets/pink/2.jpg", "/assets/pink/3.jpg"],
+    cover: "/assets/pink/pink1.jpg",
+    gallery: ["/assets/pink/pink1.jpg", "/assets/pink/pink2.jpg", "/assets/pink/pink3.jpg"],
   },
 ];
 
@@ -118,8 +121,8 @@ export const NAV = [
 ] as const;
 
 export const COPY = {
-  tagline: "Kleitu noma · Rīga",
-  heroEyebrow: "Est. MMXX · Rīga, Latvija",
+  tagline: "Kleitu noma · Visa Latvija",
+  heroEyebrow: "Est. MMXX · Saņemšana Liepājā · Sūtām visā Latvijā",
   heroLine1: "Vakars,",
   heroLine2: "kas paliek",
   heroLine3: "atmiņā.",
@@ -130,7 +133,7 @@ export const COPY = {
   introLine:
     "Mēs ticam, ka īstā kleita neatrod tevi pirkumā — tā atrod tevi mirklī, kad vajag.",
   introBody:
-    "Dress Rent Latvia ir privāts kleitu studio Rīgas centrā. Mūsu kolekcijā ir rūpīgi atlasītas vakarkleitas — no minimālistiskām midi siluetēm līdz manuāli šūtām sequīnu un spalvu kreācijām. Katra kleita tiek profesionāli tīrīta un sagatavota pirms katras nomas.",
+    "Dress Rent Latvia ir privāts kleitu studio Liepājā ar nomu visā Latvijā. Mūsu kolekcijā ir rūpīgi atlasītas vakarkleitas — no minimālistiskām midi siluetēm līdz manuāli šūtām sequīnu un spalvu kreācijām. Katra kleita tiek profesionāli tīrīta un sagatavota pirms katras nomas.",
   featuredEyebrow: "Šī sezona",
   featuredTitle: "Izvēlētās siluetes",
   processEyebrow: "Process",
@@ -143,7 +146,7 @@ export const COPY = {
 
 export const PROCESS_STEPS = [
   { n: "01", title: "Izvēlies", body: "Pārlūko kolekciju tiešsaistē un saglabā kleitas, kas ievelk uzmanību." },
-  { n: "02", title: "Pielaiko", body: "Atnāc uz studio Rīgā — vienā tikšanās reizē pielaikojam līdz 8 kleitām." },
+  { n: "02", title: "Pielaiko", body: "Atnāc uz studio Liepājā — vienā tikšanās reizē pielaikojam līdz 8 kleitām." },
   { n: "03", title: "Rezervē", body: "Apstiprini datumu, depozītu un pielāgojumus. Kleita gaida tevi." },
   { n: "04", title: "Atgriez", body: "Pēc vakara — vienkārši atgriez. Mēs parūpējamies par tīrīšanu." },
 ];
@@ -173,7 +176,8 @@ export const FAQ = [
 
 export const MARQUEE_WORDS = [
   "Kleitu noma",
-  "Rīga",
+  "Visa Latvija",
+  "Saņemšana Liepājā",
   "Est. 2020",
   "Privāts studio",
   "Pielaiko pēc pieraksta",

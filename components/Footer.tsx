@@ -18,7 +18,7 @@ export function Footer() {
         <div>
           <div className="drl-eyebrow">Studio</div>
           <p>
-            Brīvības iela 00<br />Rīga, LV-1010<br />Latvija
+            Saņemšana — Liepāja<br />Sūtām visā Latvijā<br />Omniva · DPD
           </p>
         </div>
         <div>
@@ -45,7 +45,7 @@ export function Footer() {
         </div>
       </div>
       <div className="drl-footer__bottom">
-        <span>© 2026 Dress Rent Latvia · Kleitu noma Rīgā</span>
+        <span>© 2026 Dress Rent Latvia · Kleitu noma visā Latvijā</span>
         <span className="drl-footer__monogram">DRL</span>
       </div>
     </footer>

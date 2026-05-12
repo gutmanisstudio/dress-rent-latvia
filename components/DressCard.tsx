@@ -65,7 +65,7 @@ export function DressCard({
         <div className="drl-card__row">
           <span className="drl-card__name">{dress.name}</span>
           <span className="drl-card__price">
-            €{dress.price}
+            €?
             <span className="drl-card__per">/vakars</span>
           </span>
         </div>
