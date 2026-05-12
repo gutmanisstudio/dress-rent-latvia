@@ -28,13 +28,13 @@ export const DRESSES: Dress[] = [
     colorHex: "#0A0A0A",
     length: "Garā",
     silhouette: "Korsete · Sequīni",
-    occasion: ["Gala", "Kāzas", "Balle"],
+    occasion: ["Gala", "Kāzas", "Balle", "Fotosesija"],
     price: 95,
     available: true,
     description:
       "Strukturēta korsetes kleita ar manuāli šūtu sequīnu pārklājumu un dramatisku astes garumu. Augsts šķēlums, atklāta mugura.",
-    notes: "Izmērs S/M · Augstums 165–178 cm",
-    sizes: ["S", "M"],
+    notes: "Izmērs XS/S/M · Garums 165–178 cm",
+    sizes: ["XS", "S", "M"],
     cover: "/assets/black/black1.jpg",
     gallery: [
       "/assets/black/black1.jpg",
@@ -54,13 +54,13 @@ export const DRESSES: Dress[] = [
     colorHex: "#C9C6C0",
     length: "Garā",
     silhouette: "Halter · Nāriņa",
-    occasion: ["Gala", "Izlaidums"],
+    occasion: ["Gala", "Izlaidums", "Fotosesija"],
     price: 110,
     available: true,
     description:
       "Halter kakla izgriezuma kleita ar geometrisku sudraba pērļu izšuvumu un nāriņas siluetu. Atvērta mugura.",
-    notes: "Izmērs S · Augstums 168–180 cm",
-    sizes: ["S"],
+    notes: "Izmērs XS/S · Garums 168–180 cm",
+    sizes: ["XS", "S"],
     cover: "/assets/silver/silver1.jpg",
     gallery: [
       "/assets/silver/silver1.jpg",
@@ -77,13 +77,13 @@ export const DRESSES: Dress[] = [
     colorHex: "#F4F1EA",
     length: "Midi",
     silhouette: "Bardo · Šķēlums",
-    occasion: ["Kāzas", "Vasaras balle", "Izlaidums"],
+    occasion: ["Kāzas", "Vasaras balle", "Izlaidums", "Fotosesija"],
     price: 75,
     available: true,
     description:
       "Skulpturāls bardo volāns uz neoprēna auduma. Augsts sānu šķēlums, taisns silueta apakša.",
-    notes: "Izmērs S/M · Augstums 160–175 cm",
-    sizes: ["S", "M"],
+    notes: "Izmērs XS/S/M · Garums 160–175 cm",
+    sizes: ["XS", "S", "M"],
     cover: "/assets/white/white1.jpg",
     gallery: [
       "/assets/white/white1.jpg",
@@ -100,13 +100,13 @@ export const DRESSES: Dress[] = [
     colorHex: "#F2C8D0",
     length: "Garā",
     silhouette: "Strapless · Spalvas",
-    occasion: ["Vasaras balle", "Izlaidums"],
+    occasion: ["Vasaras balle", "Izlaidums", "Fotosesija"],
     price: 85,
     available: true,
     description:
       "Mīksta strausa spalvu apdare uz strapless korsetes un slaida silueta ar sānu šķēlumu. Romantisks rozā tonis.",
-    notes: "Izmērs S · Augstums 165–178 cm",
-    sizes: ["S"],
+    notes: "Izmērs XS/S · Garums 165–178 cm",
+    sizes: ["XS", "S"],
     cover: "/assets/pink/pink1.jpg",
     gallery: ["/assets/pink/pink1.jpg", "/assets/pink/pink2.jpg", "/assets/pink/pink3.jpg"],
   },
@@ -127,26 +127,26 @@ export const COPY = {
   heroLine2: "kas paliek",
   heroLine3: "atmiņā.",
   heroSub:
-    "Rūpīgi atlasīta dizaineru kleitu kolekcija nomai vienam vakaram, kāzām, izlaidumam vai gala pasākumam.",
+    "Katra kleita — vienā eksemplārā. Šūta, pāršūta un rūpīgi izvēlēta. Izmēri XS–M · Saņemšana Liepājā · Sūtām visā Latvijā.",
   heroCTA: "Skatīt kolekciju",
   heroCTA2: "Rezervēt tikšanos",
   introLine:
     "Mēs ticam, ka īstā kleita neatrod tevi pirkumā — tā atrod tevi mirklī, kad vajag.",
   introBody:
-    "Dress Rent Latvia ir privāts kleitu studio Liepājā ar nomu visā Latvijā. Mūsu kolekcijā ir rūpīgi atlasītas vakarkleitas — no minimālistiskām midi siluetēm līdz manuāli šūtām sequīnu un spalvu kreācijām. Katra kleita tiek profesionāli tīrīta un sagatavota pirms katras nomas.",
+    "Dress Rent Latvia ir privāta kleitu studija Liepājā ar nomu visā Latvijā. Katra kleita kolekcijā ir vienā eksemplārā — pati šuju, pārveidoju un pilnveidoju ar savu radošo redzējumu. Kleitas svētkiem, pasākumiem un fotosesijām. Profesionāla tīrīšana iekļauta pirms katras nomas.",
   featuredEyebrow: "Šī sezona",
-  featuredTitle: "Izvēlētās siluetes",
+  featuredTitle: "Izvēlētie silueti",
   processEyebrow: "Process",
   processTitle: "Četri soļi",
   contactEyebrow: "Kontakti",
   contactTitle: "Pieraksties uz pielaikošanu",
   contactSub:
-    "Atstāj ziņu un mēs sazināsimies 24 stundu laikā, lai vienotos par tikšanos studio.",
+    "Atstāj ziņu un mēs sazināsimies 24 stundu laikā, lai vienotos par tikšanos studijā.",
 };
 
 export const PROCESS_STEPS = [
   { n: "01", title: "Izvēlies", body: "Pārlūko kolekciju tiešsaistē un saglabā kleitas, kas ievelk uzmanību." },
-  { n: "02", title: "Pielaiko", body: "Atnāc uz studio Liepājā — vienā tikšanās reizē pielaikojam līdz 8 kleitām." },
+  { n: "02", title: "Pielaiko", body: "Atnāc uz studiju Liepājā — vienā tikšanās reizē pielaikojam līdz 8 kleitām." },
   { n: "03", title: "Rezervē", body: "Apstiprini datumu, depozītu un pielāgojumus. Kleita gaida tevi." },
   { n: "04", title: "Atgriez", body: "Pēc vakara — vienkārši atgriez. Mēs parūpējamies par tīrīšanu." },
 ];
@@ -179,7 +179,7 @@ export const MARQUEE_WORDS = [
   "Visa Latvija",
   "Saņemšana Liepājā",
   "Est. 2020",
-  "Privāts studio",
+  "Privāta studija",
   "Pielaiko pēc pieraksta",
   "Dress Rent Latvia",
 ];

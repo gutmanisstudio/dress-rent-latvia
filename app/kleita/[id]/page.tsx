@@ -144,7 +144,7 @@ export default function DressDetailPage() {
           <Reveal motion={motion} delay={220} className="drl-detail__specs">
             <Spec label="Krāsa" value={dress.color} />
             <Spec label="Garums" value={dress.length} />
-            <Spec label="Silueta" value={dress.silhouette} />
+            <Spec label="Siluets" value={dress.silhouette} />
             <Spec label="Izmēri" value={dress.sizes.join(" · ")} />
             <Spec label="Piezīme" value={dress.notes} />
           </Reveal>
@@ -171,7 +171,7 @@ export default function DressDetailPage() {
           </Reveal>
           <Reveal motion={motion} delay={120}>
             <h2 className="drl-section__title">
-              Citas <em>siluetes</em>
+              Citi <em>silueti</em>
             </h2>
           </Reveal>
         </div>

@@ -56,7 +56,7 @@ export default function HowPage() {
           </Reveal>
           <Reveal motion={motion} delay={200}>
             <p>
-              Studio ir privāts — uz vienu pielaikošanu rezervējam visu telpu. Vienā tikšanās reizē var pielaikot līdz 8 kleitām, ar šampanieti, mūziku un godīgu padomu.
+              Studija ir privāta — uz vienu pielaikošanu rezervējam visu telpu. Vienā tikšanās reizē var pielaikot līdz 8 kleitām, ar šampanieti, mūziku un godīgu padomu.
             </p>
             <p>
               Pielaikošana ir bezmaksas un ilgst 45–60 minūtes. Rezervācijas — vismaz 24 stundas iepriekš.

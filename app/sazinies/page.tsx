@@ -80,7 +80,7 @@ export default function ContactPage() {
         </Reveal>
         <Reveal motion={motion} delay={240}>
           <p className="drl-page__sub">
-            Atstāj ziņu un mēs sazināsimies 24 stundu laikā, lai apstiprinātu tikšanos studio.
+            Atstāj ziņu un mēs sazināsimies 24 stundu laikā, lai apstiprinātu tikšanos studijā.
           </p>
         </Reveal>
       </header>
@@ -124,7 +124,7 @@ export default function ContactPage() {
         <aside className="drl-contact__side">
           <Reveal motion={motion}>
             <div className="drl-contact__block">
-              <div className="drl-eyebrow">Studio</div>
+              <div className="drl-eyebrow">Studija</div>
               <p>
                 Saņemšana — Liepāja<br />Sūtām visā Latvijā<br />Omniva · DPD
               </p>

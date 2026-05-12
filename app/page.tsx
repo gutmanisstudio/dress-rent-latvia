@@ -89,7 +89,7 @@ export default function HomePage() {
               </div>
               <div className="drl-hero__meta-item">
                 <div className="drl-eyebrow drl-eyebrow--light">Kolekcijā</div>
-                <div className="drl-hero__meta-text">112 siluetes</div>
+                <div className="drl-hero__meta-text">112 silueti</div>
               </div>
             </div>
             <div className="drl-hero__scroll">
@@ -104,7 +104,7 @@ export default function HomePage() {
       <section className="drl-intro">
         <div className="drl-intro__inner">
           <Reveal motion={motion}>
-            <div className="drl-eyebrow drl-eyebrow--center">— Studio —</div>
+            <div className="drl-eyebrow drl-eyebrow--center">— Studija —</div>
           </Reveal>
           <Reveal motion={motion} delay={120}>
             <h2 className="drl-intro__big">
@@ -126,8 +126,8 @@ export default function HomePage() {
           </Reveal>
           <Reveal motion={motion} delay={120}>
             <h2 className="drl-section__title">
-              Siluetes,
-              <em> kas saglabājas atmiņā</em>
+              Silueti,
+              <em> kuri saglabājas atmiņā</em>
             </h2>
           </Reveal>
           <Reveal motion={motion} delay={240} className="drl-section__action">

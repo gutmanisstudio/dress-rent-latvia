@@ -4,16 +4,16 @@ import { Reveal, ParallaxImage } from "@/components/primitives";
 import { CTASection } from "@/components/CTASection";
 
 const NUMBERS = [
-  { n: "112", label: "Siluetes kolekcijā" },
-  { n: "6", label: "Gadi studio darbībā" },
-  { n: "2 400+", label: "Apkalpotas klientes" },
-  { n: "100%", label: "Tīrīšana iekļauta" },
+  { n: "1/1", label: "Katra kleita unikāla" },
+  { n: "XS–M", label: "Pieejamie izmēri" },
+  { n: "LV", label: "Sūtām visā Latvijā" },
+  { n: "Liepāja", label: "Saņemšana studijā" },
 ];
 
 const VALUES = [
-  { n: "I", t: "Atlasīt", b: "Katra kleita iziet personīgu atlasi. Nepērkam masveidā, neturam to, kas neielas." },
-  { n: "II", t: "Saudzēt", b: "Profesionāla tīrīšana ar īpašiem maigiem līdzekļiem starp katru nomu. Mazi labojumi tūlīt." },
-  { n: "III", t: "Konsultēt", b: "Godīgs padoms, kas patiešām piestāv. Neviena pārdošana, nekādas spiediena." },
+  { n: "I", t: "Atlasīt", b: "Katra kleita iziet personīgu atlasi un pārveidi. Vienā eksemplārā — unikāla tikai Tev." },
+  { n: "II", t: "Saudzēt", b: "Profesionāla tīrīšana ar maigiem līdzekļiem starp katru nomu. Mazi labojumi tūlīt." },
+  { n: "III", t: "Konsultēt", b: "Godīgs padoms, kas patiešām piestāv. Nekādas pārdošanas, nekāda spiediena." },
 ];
 
 export default function AboutPage() {
@@ -27,7 +27,7 @@ export default function AboutPage() {
         </Reveal>
         <Reveal motion={motion} delay={120}>
           <h1 className="drl-page__title">
-            Studio,
+            Studija,
             <em> kas dzimst no mīlestības</em>
             <br />
             pret detaļām.
@@ -39,17 +39,17 @@ export default function AboutPage() {
         <div className="drl-about__story-l">
           <Reveal motion={motion}>
             <p className="drl-about__lead">
-              Dress Rent Latvia ir privāts kleitu studio, kas dibināts 2020. gadā Liepājā.
+              Dress Rent Latvia ir privāta kleitu studija Liepājā. Katra kleita kolekcijā ir vienā eksemplārā — šūta, pāršūta un rūpīgi izvēlēta.
             </p>
           </Reveal>
           <Reveal motion={motion} delay={120}>
             <p>
-              Visu sākām ar vienu skapi un divpadsmit kleitām. Šodien kolekcijā ir vairāk nekā simts vakarkleitu — no eiropiešu dizaineriem, no italian ateljē, no Latvijas mākslinieces. Katra ar savu raksturu.
+              Es pati pārveidoju un pilnveidoju katru kleitu ar savu radošo redzējumu — lai Tu justos īpaša, sievišķīga un pārliecināta. Pieejamie izmēri: XS līdz M. Kleitas svētkiem, pasākumiem un fotosesijām.
             </p>
           </Reveal>
           <Reveal motion={motion} delay={220}>
             <p>
-              Mūsu filozofija ir vienkārša: skaista kleita nedrīkst gulēt skapī starp izlaidumiem. Tā ir paredzēta, lai dejotu.
+              Mūsu filozofija ir vienkārša: skaista kleita nedrīkst gulēt skapī. Tā ir paredzēta, lai dejotu — un tad atrastu nākamo īpašnieci.
             </p>
           </Reveal>
         </div>

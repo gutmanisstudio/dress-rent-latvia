@@ -16,7 +16,7 @@ export function Footer() {
       </div>
       <div className="drl-footer__grid">
         <div>
-          <div className="drl-eyebrow">Studio</div>
+          <div className="drl-eyebrow">Studija</div>
           <p>
             Saņemšana — Liepāja<br />Sūtām visā Latvijā<br />Omniva · DPD
           </p>

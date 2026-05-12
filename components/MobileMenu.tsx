@@ -52,7 +52,7 @@ export function MobileMenu({
       </nav>
       <div className="drl-mmenu__foot">
         <div>
-          <div className="drl-eyebrow">Studio</div>
+          <div className="drl-eyebrow">Studija</div>
           <div>Saņemšana Liepājā · Sūtām visā Latvijā</div>
         </div>
         <div>

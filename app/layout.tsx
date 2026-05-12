@@ -5,7 +5,7 @@ import { SiteShell } from "@/components/SiteShell";
 export const metadata: Metadata = {
   title: "Dress Rent Latvia — Kleitu noma visā Latvijā",
   description:
-    "Privāts kleitu studio Liepājā ar nomu visā Latvijā. Rūpīgi atlasīta dizaineru vakarkleitu kolekcija nomai vienam vakaram — kāzām, izlaidumam, gala pasākumam.",
+    "Privāta kleitu studija Liepājā ar nomu visā Latvijā. Katra kleita vienā eksemplārā — šūta, pāršūta un rūpīgi izvēlēta. Izmēri XS–M. Svētkiem, pasākumiem un fotosesijām.",
   metadataBase: new URL("https://dressrent.lv"),
 };
 
