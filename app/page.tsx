@@ -1,5 +1,6 @@
 "use client";
 import Link from "next/link";
+import { useEffect, useState } from "react";
 import { useMotionPref } from "@/lib/motion";
 import { COPY, DRESSES, PROCESS_STEPS } from "@/lib/data";
 import {
@@ -15,6 +16,14 @@ export default function HomePage() {
   const motion = useMotionPref();
   const featured = DRESSES.filter((d) => !d.placeholder).slice(0, 4);
   const introParts = COPY.introLine.split("—");
+  const [isMobile, setIsMobile] = useState(false);
+  useEffect(() => {
+    const m = window.matchMedia("(max-width: 700px)");
+    const sync = () => setIsMobile(m.matches);
+    sync();
+    m.addEventListener("change", sync);
+    return () => m.removeEventListener("change", sync);
+  }, []);
 
   return (
     <main className="drl-home">
@@ -26,9 +35,9 @@ export default function HomePage() {
             alt="Vakara kleita"
             motion={motion}
             amount={20}
-            objectPosition="center top"
+            objectPosition={isMobile ? "58% center" : "center top"}
             scale={1}
-            offsetY={-110}
+            offsetY={isMobile ? 0 : -110}
           />
           <div className="drl-hero__scrim"></div>
         </div>
